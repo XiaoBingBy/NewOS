@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registServlet</servlet-name>
+    <servlet-class>web.registServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CodeServlet</servlet-name>
+    <servlet-class>web.CodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userManageServlet</servlet-name>
+    <servlet-class>web.userManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteUserOne</servlet-name>
+    <servlet-class>web.deleteUserOne</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selectOneServlet</servlet-name>
+    <servlet-class>web.selectOneServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>web.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>exitOS</servlet-name>
+    <servlet-class>web.exitOS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateInfoServlet</servlet-name>
+    <servlet-class>web.updateInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>newsPullServlet</servlet-name>
+    <servlet-class>web.newsPullServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>newsManageServlet</servlet-name>
+    <servlet-class>web.newsManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateUserInfoServlet</servlet-name>
+    <servlet-class>web.updateUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteNews</servlet-name>
+    <servlet-class>web.deleteNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>upNewsServlet</servlet-name>
+    <servlet-class>web.upNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selectNews</servlet-name>
+    <servlet-class>web.selectNews</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>registServlet</servlet-name>
+    <url-pattern>/registServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CodeServlet</servlet-name>
+    <url-pattern>/CodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userManageServlet</servlet-name>
+    <url-pattern>/userManageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteUserOne</servlet-name>
+    <url-pattern>/deleteUserOne</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectOneServlet</servlet-name>
+    <url-pattern>/selectOneServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>exitOS</servlet-name>
+    <url-pattern>/exitOS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateInfoServlet</servlet-name>
+    <url-pattern>/updateInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newsPullServlet</servlet-name>
+    <url-pattern>/newsPullServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newsManageServlet</servlet-name>
+    <url-pattern>/newsManageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateUserInfoServlet</servlet-name>
+    <url-pattern>/updateUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteNews</servlet-name>
+    <url-pattern>/deleteNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>upNewsServlet</servlet-name>
+    <url-pattern>/upNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectNews</servlet-name>
+    <url-pattern>/selectNews</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+  	<filter-name>loginFilter</filter-name>
+  	<filter-class>web.filter.loginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>loginFilter</filter-name>
+  	<url-pattern>/admin/*</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+  	<filter-name>CahrSetFilter</filter-name>
+  	<filter-class>web.filter.CahrSetFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>CahrSetFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  
+  	
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
